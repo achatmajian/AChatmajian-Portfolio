@@ -20,12 +20,11 @@
 }
 
 .navbar-menu {
-  display: flex;
   justify-content: flex-end;
-  margin-left: 55%;
+  margin-right: 40px;
   font-family: Montserrat;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 500;
 
 }
 
@@ -41,7 +40,7 @@
 
 .hero-container {
   width: 1440px;
-  height: 530px;
+  height: auto;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -54,10 +53,6 @@ width: 489px;
   font-family: Montserrat;
   font-size: 36px;
   font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #000000;
   display: flex;
@@ -66,14 +61,10 @@ width: 489px;
 }
 
 .hero-subtext {
-  height: 18px;
+  height: 1.25rem;
   font-family: Montserrat;
   font-size: 14px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
+  font-weight: 400;
   text-align: center;
   color: #000000;
   display: flex;
@@ -82,8 +73,8 @@ width: 489px;
 }
 
 .hero-illustration {
-  width: 691px;
-  height: 362px;
+  width: 50%;
+  height: auto;
   display: flex;
   align-self: center;
   margin-top: 40px;
@@ -92,7 +83,7 @@ width: 489px;
 /* About */
 
 .about-container {
-  width: 1440px;
+  width: auto;
   height: 459px;
   background-color: #ff6633;
   margin-top: -13px;
@@ -106,10 +97,6 @@ width: 489px;
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #ffffff;
   display: flex;
@@ -123,11 +110,7 @@ width: 489px;
   height: 92px;
   font-family: Montserrat;
   font-size: 14px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
+  font-weight: 400;
   text-align: center;
   color: #ffffff;
   display: flex;
@@ -139,6 +122,7 @@ width: 489px;
 
 .services-container {
   display: flex;
+  width: auto;
   justify-content: center;
   margin-top: -80px;
 }
@@ -162,10 +146,6 @@ width: 489px;
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: center;
   color: #ffffff;
   align-self: center;
