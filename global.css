@@ -1,0 +1,44 @@
+  /* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation */
+  
+  .navbar {
+    border-bottom: #ff6633 1px solid;
+  }
+  
+  .arek {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff6633;
+    margin-left: 40px;
+    
+  }
+  
+  .navbar-menu {
+    justify-content: flex-end;
+    margin-right: 40px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+  
+  }
+  
+  .button.is-primary {
+    background-color: #ff6633;
+  }
+  
+  .button.is-primary:hover {
+    background-color: #ff8c66;
+  }
+  
+  
+  /* Footer */
+  
+  
