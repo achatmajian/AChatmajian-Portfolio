@@ -79,14 +79,15 @@
   .services-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 1em;
+    /* grid-column-gap: -10px; */
     justify-items: center;
     
   }
 
   .services-container > div {
-    width: 400px;
+    width: 350px;
     height: 500px;
+    margin: 40px;
 
   }
   
@@ -193,6 +194,41 @@
     color: #ffffff;
   }
   
+  /* Projects */
+
+  .projects-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .projects-grid > div {
+    border-radius: 10px;
+    background-color: #4a4a4a;
+    width: 350px;
+    height: 200px;
+    margin-top: 10px;
+  }
+
+  .projects-headline {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #4a4a4a;
+  }
+
+  #project-box-text {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+  }
+
   /* Start A Project */
   
   .contact-container {
@@ -236,3 +272,11 @@
     justify-content: center;
     align-self: center;
   }
+  
+
+  
+  
+  
+  
+  
+  
