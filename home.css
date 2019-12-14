@@ -79,26 +79,40 @@
   .services-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
     /* grid-column-gap: -10px; */
     justify-items: center;
+    gap: 30px;
+    /* justify-content: center; */
     
   }
 
-  .services-container > div {
+  /* .services-container > div {
     width: 350px;
     height: 500px;
     margin: 40px;
 
+  } */
+
+  .services-headline {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 40px;
   }
-  
     /* Research */
   
   .research-container {
+    width: 350px;
+    height: 500px;
     border-radius: 10px;
-    border: solid 1px #979797;
+    /* border: solid 1px #979797; */
     background-color: #4a4a4a;
     justify-content: center;
     padding: 50px;
+    /* margin-left: 13%; */
     grid-column: 1;
   }
   
@@ -129,8 +143,10 @@
   /* Design */
   
   .design-container {
+    width: 350px;
+    height: 500px;
     border-radius: 10px;
-    border: solid 1px #979797;
+    /* border: solid 1px #979797; */
     background-color: #4a4a4a;
     padding: 50px;
     grid-column: 2;
@@ -163,10 +179,13 @@
   /* Development */
   
   .development-container {
+    width: 350px;
+    height: 500px;
     border-radius: 10px;
-    border: solid 1px #979797;
+    /* border: solid 1px #979797; */
     background-color: #4a4a4a;
     padding: 50px;
+    /* margin-right: 12%; */
     grid-column: 3;
   }
   
@@ -200,9 +219,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
     justify-items: center;
     align-items: center;
     padding: 50px;
+    height: 600px;
+    margin-top: -20px;
   }
 
   .projects-grid > div {
@@ -219,6 +241,7 @@
     font-weight: 600;
     text-align: center;
     color: #4a4a4a;
+    margin-top: 40px;
   }
 
   #project-box-text {
@@ -232,49 +255,66 @@
   /* Start A Project */
   
   .contact-container {
-    width: 904px;
-    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+  }
+
+  .contact-box {
+    width: 1100px;
+    border-radius: 10px;
     background-color: #4a4a4a;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 50px 25px 50px;
   }
   
   .contact-headline {
-    height: 29px;
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     text-align: center;
     color: #ffffff;
-    display: flex;
     justify-content: center;
     align-self: center;
   }
   
   .contact-text {
-    height: 18px;
     font-family: Montserrat;
     font-size: 14px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
+    font-weight: 500;
     text-align: center;
     color: #ffffff;
-    display: flex;
     justify-content: center;
     align-self: center;
   }
-  
 
+  .contact-button {
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    left: 80px;
+  }
   
+/* Footer */
+
+.footer {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-content: center;
+  background-color: #ff6633;
+  height: 300px;
+  margin-top: -60px;
+}
+  
+#footer-text {
+  color: white;
+
+
+}
   
   
   
