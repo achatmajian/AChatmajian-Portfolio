@@ -9,11 +9,11 @@
   /* Navigation */
   
   .navbar {
-    border-bottom: #ff6633 1px solid;
+    /* border-bottom: #ff6633 1px solid; */
   }
   
   .arek {
-    font-family: Montserrat;
+    font-family: Proxima Nova;
     font-size: 24px;
     font-weight: 600;
     color: #ff6633;
@@ -24,7 +24,7 @@
   .navbar-menu {
     justify-content: flex-end;
     margin-right: 40px;
-    font-family: Montserrat;
+    font-family: Proxima Nova;
     font-size: 20px;
     font-weight: 600;
   
@@ -40,5 +40,25 @@
   
   
   /* Footer */
+
+.footer {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-content: center;
+  background-color: #ff6633;
+  height: 300px;
+  margin-top: -60px;
+}
+  
+.content.has-text-centered{
+  margin-top: 50px;
+}
+
+#footer-text {
+  color: white;
+  font-family: Proxima Nova;
+}
+  
   
   
