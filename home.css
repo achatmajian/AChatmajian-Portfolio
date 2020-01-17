@@ -16,7 +16,7 @@
   }
 
   .hero-headline {
-    font-family: Montserrat;
+    font-family: Proxima Nova;
     font-size: 36px;
     font-weight: 600;
     text-align: center;
@@ -25,7 +25,7 @@
   }
   
   .hero-subtext {
-    font-family: Montserrat;
+    font-family: Proxima Nova;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
@@ -58,7 +58,7 @@
   }
   
   .about-title { 
-    font-family: Montserrat;
+    font-family: Proxima Nova;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
@@ -67,133 +67,30 @@
   }
   
   .about-text {
-    font-family: Montserrat;
+    font-family: Proxima Nova;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
     color: #ffffff;
   }
   
-  /* Services */
-  
-  .services-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-column-gap: -10px; */
-    justify-items: center;
-    
-  }
+  /* Skills */
 
-  .services-container > div {
-    width: 350px;
-    height: 500px;
-    margin: 40px;
-
-  }
-  
-    /* Research */
-  
-  .research-container {
-    border-radius: 10px;
-    border: solid 1px #979797;
-    background-color: #4a4a4a;
+  .skills-container{
     justify-content: center;
     padding: 50px;
-    grid-column: 1;
   }
   
-  .research-headline {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .research-text {
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .research-list {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  /* Design */
-  
-  .design-container {
-    border-radius: 10px;
-    border: solid 1px #979797;
+  .skill{
     background-color: #4a4a4a;
-    padding: 50px;
-    grid-column: 2;
-  }
-  
-  .design-headline {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 600;
+    color: white;
+    border-radius: 5px;
     text-align: center;
-    color: #ffffff;
+    padding: 20px;
+    margin: 20px;
   }
   
-  .design-text {
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .design-list {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  /* Development */
-  
-  .development-container {
-    border-radius: 10px;
-    border: solid 1px #979797;
-    background-color: #4a4a4a;
-    padding: 50px;
-    grid-column: 3;
-  }
-  
-  .development-headline {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .development-text {
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .development-list {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-  
+
   /* Projects */
 
   .projects-grid{
@@ -214,7 +111,7 @@
   }
 
   .projects-headline {
-    font-family: Montserrat;
+    font-family: Proxima Nova;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
@@ -222,7 +119,7 @@
   }
 
   #project-box-text {
-    font-family: Montserrat;
+    font-family: Proxima Nova;
     font-size: 20px;
     font-weight: 400;
     text-align: center;
@@ -243,7 +140,7 @@
   
   .contact-headline {
     height: 29px;
-    font-family: Montserrat;
+    font-family: Proxima Nova;
     font-size: 24px;
     font-weight: 600;
     font-style: normal;
@@ -259,7 +156,7 @@
   
   .contact-text {
     height: 18px;
-    font-family: Montserrat;
+    font-family: Proxima Nova;
     font-size: 14px;
     font-weight: 300;
     font-style: normal;
