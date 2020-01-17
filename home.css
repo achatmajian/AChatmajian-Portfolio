@@ -16,7 +16,7 @@
   }
 
   .hero-headline {
-    font-family: Proxima Nova;
+    font-family: monospace;
     font-size: 36px;
     font-weight: 600;
     text-align: center;
@@ -25,7 +25,7 @@
   }
   
   .hero-subtext {
-    font-family: Proxima Nova;
+    font-family: monospace;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
@@ -39,7 +39,7 @@
   .about-container {
     display: flex;
     justify-items: center;
-    background-color: #ff6633;
+    background-color: #d84b27;
     margin-top: 300px;
     padding: 50px;
     
@@ -58,6 +58,7 @@
   .skills-container{
     justify-content: center;
     padding: 50px;
+    text-align: center;
   }
   
   .skill{
@@ -65,8 +66,9 @@
     color: white;
     border-radius: 5px;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     margin: 40px;
+    font-family: monospace;
   }
   
 
@@ -74,9 +76,9 @@
 
   .project-container{
   padding: 40px;
-  margin: 20px;
+  margin: 60px;
+  text-align: center;
   }
-
 
   .card {
     margin: 30px;
@@ -97,3 +99,20 @@
     padding: 20px;
     margin: 40px;
   } */
+
+/* Footer */
+
+  .footer{
+    background-color: #d84b27;
+    color: white;
+    font-family: monospace;
+  }
+
+  .social-media{
+    color:white;
+    background-color: #4a4a4a;
+  }
+
+  .social-media:hover{
+    color: #d84b27;
+    }
