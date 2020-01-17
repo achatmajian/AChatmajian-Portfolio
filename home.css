@@ -33,45 +33,24 @@
     margin-top: 20px;
   }
   
-  .hero-illustration {
-    /* height: auto;
-    margin-top: 40px; */
-  }
   
   /* About */
   
   .about-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    background-color: #ffffff;
+    display: flex;
     justify-items: center;
     background-color: #ff6633;
     margin-top: 300px;
-    padding: 2%;
+    padding: 50px;
     
-  }
-
-  .about-container > div {
-    width: 60%;
-    padding: 20px;
-  }
-  
-  .about-title { 
-    font-family: Proxima Nova;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    color: #ffffff;
-  
-  }
+  }  
   
   .about-text {
-    font-family: Proxima Nova;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: monospace;
     text-align: center;
     color: #ffffff;
+    padding-left: 200px;
+    padding-right: 200px;
   }
   
   /* Skills */
@@ -87,93 +66,34 @@
     border-radius: 5px;
     text-align: center;
     padding: 20px;
-    margin: 20px;
+    margin: 40px;
   }
   
 
   /* Projects */
 
-  .projects-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    padding: 50px;
+  .project-container{
+  padding: 40px;
+  margin: 20px;
   }
 
-  .projects-grid > div {
-    border-radius: 10px;
+
+  .card {
+    margin: 30px;
+    border-radius: 5px;
+  }
+
+  .image {
+    border-radius: 5px;
+  }
+
+  /* .projects > div{
     background-color: #4a4a4a;
-    width: 350px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
     height: 200px;
-    margin-top: 10px;
-  }
-
-  .projects-headline {
-    font-family: Proxima Nova;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    color: #4a4a4a;
-  }
-
-  #project-box-text {
-    font-family: Proxima Nova;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-
-  /* Start A Project */
-  
-  .contact-container {
-    width: 904px;
-    border-radius: 8px;
-    background-color: #4a4a4a;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    flex-direction: row;
-  }
-  
-  .contact-headline {
-    height: 29px;
-    font-family: Proxima Nova;
-    font-size: 24px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-  }
-  
-  .contact-text {
-    height: 18px;
-    font-family: Proxima Nova;
-    font-size: 14px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-  }
-  
-
-  
-  
-  
-  
-  
-  
+    padding: 20px;
+    margin: 40px;
+  } */
