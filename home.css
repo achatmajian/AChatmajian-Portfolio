@@ -1,18 +1,13 @@
 /* Hero */
   
   .hero-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    /* grid-row-gap: 10px; */
-    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #d84b27;
     justify-items: center;
-  }
-  
-  .hero-container > div {
-    height: 40px;
+    padding: 50px;
   }
 
   .hero-headline {
@@ -20,18 +15,25 @@
     font-size: 36px;
     font-weight: 600;
     text-align: center;
-    color: #000000;
-    margin-top: 40px;
+    color: white;
+    padding-bottom: 30px;
   }
   
+
   .hero-subtext {
     font-family: monospace;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
     color: #000000;
-    margin-top: 20px;
+    margin-bottom: 50px;
   }
+
+  .hero-svg {
+  width: 700px;
+  padding: 20px
+  }
+
   
   
   /* About */
@@ -40,20 +42,26 @@
     display: flex;
     justify-items: center;
     background-color: #d84b27;
-    margin-top: 300px;
-    padding: 50px;
-    
+    padding: 0px 200px 50px 200px;
   }  
   
   .about-text {
     font-family: monospace;
     text-align: center;
     color: #ffffff;
-    padding-left: 200px;
-    padding-right: 200px;
+    /* padding-left: 400px;
+    padding-right: 400px; */
   }
   
   /* Skills */
+
+.skills-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 80px 0px 30px 0px;
+}
 
   .skills-container{
     justify-content: center;
@@ -69,12 +77,18 @@
     padding: 40px;
     margin: 40px;
     font-family: monospace;
+    min-width: 350px;
   }
   
 
   /* Projects */
 
-  .project-container{
+  .projects-wrapper{
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+  }
+
+  .projects-container{
   padding: 40px;
   margin: 60px;
   text-align: center;
@@ -83,24 +97,15 @@
   .card {
     margin: 30px;
     border-radius: 5px;
+    min-width: 350px;
   }
 
   .image {
     border-radius: 5px;
   }
 
-  /* .projects > div{
-    background-color: #4a4a4a;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    padding: 20px;
-    margin: 40px;
-  } */
-
 /* Footer */
+
 
   .footer{
     background-color: #d84b27;
