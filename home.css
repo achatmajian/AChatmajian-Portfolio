@@ -10,7 +10,6 @@
     padding: 50px;
   }
 
-
   .hero-headline {
     font-family: monospace;
     font-size: 36px;
@@ -21,7 +20,6 @@
   }
   
 
-
   .hero-subtext {
     font-family: monospace;
     font-size: 14px;
@@ -29,6 +27,11 @@
     text-align: center;
     color: #000000;
     margin-bottom: 50px;
+  }
+
+  .hero-svg {
+  width: 700px;
+  padding: 20px
   }
   
   
@@ -53,6 +56,9 @@
   /* Skills */
 
 .skills-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   text-align: center;
   padding: 80px 0px 30px 0px;
 }
@@ -71,6 +77,7 @@
     padding: 40px;
     margin: 40px;
     font-family: monospace;
+    min-width: 350px;
   }
   
 
@@ -90,6 +97,7 @@
   .card {
     margin: 30px;
     border-radius: 5px;
+    min-width: 350px;
   }
 
   .image {
