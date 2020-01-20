@@ -1,8 +1,4 @@
   /* General */
-
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -41,15 +37,16 @@ ul {
   /* Navigation */
   
   .navbar {
-    border-bottom: #d84b27 1px solid;
+    /* border-bottom: #d84b27 1px solid; */
     padding: 5px;
+    background-color: #d84b27;
   }
   
   .arek {
     font-family: monospace;
     font-size: 24px;
     font-weight: bold;
-    color: #d84b27;
+    color: white;
     margin-left: 40px;
     
   }
@@ -60,7 +57,10 @@ ul {
     font-family: monospace;
     font-size: 20px;
     font-weight: 600;
-  
+  }
+
+  .navbar-item{
+    color: white;;
   }
   
   .button.is-primary {
