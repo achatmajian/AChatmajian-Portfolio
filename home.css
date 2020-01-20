@@ -33,6 +33,7 @@
   width: 700px;
   padding: 20px
   }
+
   
   
   /* About */
@@ -42,7 +43,6 @@
     justify-items: center;
     background-color: #d84b27;
     padding: 0px 200px 50px 200px;
-    
   }  
   
   .about-text {
@@ -104,18 +104,8 @@
     border-radius: 5px;
   }
 
-  /* .projects > div{
-    background-color: #4a4a4a;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    padding: 20px;
-    margin: 40px;
-  } */
-
 /* Footer */
+
 
   .footer{
     background-color: #d84b27;
