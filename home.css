@@ -1,3 +1,9 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* Hero */
   
   .hero-container {
@@ -39,9 +45,9 @@
   
   .about-container {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     background-color: #d84b27;
-    padding: 0px 200px 50px 200px;
+    padding: 0px 250px 50px 250px;
     
   }  
   
@@ -49,8 +55,8 @@
     font-family: monospace;
     text-align: center;
     color: #ffffff;
-    /* padding-left: 400px;
-    padding-right: 400px; */
+    width: 700px;
+    min-width: 500px;
   }
   
   /* Skills */
@@ -60,12 +66,13 @@
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
+  justify-content: center;
   padding: 80px 0px 30px 0px;
 }
 
   .skills-container{
     justify-content: center;
-    padding: 50px;
+    padding: 50px 10px 50px 10px;
     text-align: center;
   }
   
@@ -77,43 +84,10 @@
     padding: 40px;
     margin: 40px;
     font-family: monospace;
-    min-width: 350px;
-  }
-  
-
-  /* Projects */
-
-  .projects-wrapper{
-    text-align: center;
-    padding: 30px 0px 0px 0px;
+    min-width: 400px;
   }
 
-  .projects-container{
-  padding: 40px;
-  margin: 60px;
-  text-align: center;
-  }
 
-  .card {
-    margin: 30px;
-    border-radius: 5px;
-    min-width: 350px;
-  }
-
-  .image {
-    border-radius: 5px;
-  }
-
-  /* .projects > div{
-    background-color: #4a4a4a;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    padding: 20px;
-    margin: 40px;
-  } */
 
 /* Footer */
 
