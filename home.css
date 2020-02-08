@@ -1,282 +1,107 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* Hero */
   
   .hero-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    /* grid-row-gap: 10px; */
-    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #d84b27;
     justify-items: center;
-  }
-  
-  .hero-container > div {
-    height: 40px;
+    padding: 50px;
   }
 
   .hero-headline {
-    font-family: Montserrat;
+    font-family: monospace;
     font-size: 36px;
     font-weight: 600;
     text-align: center;
-    color: #000000;
-    margin-top: 40px;
+    color: white;
+    padding-bottom: 30px;
   }
   
+
   .hero-subtext {
-    font-family: Montserrat;
+    font-family: monospace;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
     color: #000000;
-    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .hero-svg {
+  width: 700px;
+  padding: 20px
   }
   
-  .hero-illustration {
-    /* height: auto;
-    margin-top: 40px; */
-  }
   
   /* About */
   
   .about-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    background-color: #ffffff;
-    justify-items: center;
-    background-color: #ff6633;
-    margin-top: 300px;
-    padding: 2%;
+    display: flex;
+    justify-content: center;
+    background-color: #d84b27;
+    padding: 0px 250px 50px 250px;
     
-  }
-
-  .about-container > div {
-    width: 60%;
-    padding: 20px;
-  }
-  
-  .about-title { 
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    color: #ffffff;
-  
-  }
+  }  
   
   .about-text {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: monospace;
     text-align: center;
     color: #ffffff;
+    width: 700px;
+    min-width: 500px;
   }
   
-  /* Services */
-  
-  .services-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-column-gap: -10px; */
-    justify-items: center;
-    
-  }
+  /* Skills */
 
-  .services-container > div {
-    width: 350px;
-    height: 500px;
+.skills-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding: 80px 0px 30px 0px;
+}
+
+  .skills-container{
+    justify-content: center;
+    padding: 50px 10px 50px 10px;
+    text-align: center;
+  }
+  
+  .skill{
+    background-color: #4a4a4a;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 40px;
     margin: 40px;
-
+    font-family: monospace;
+    min-width: 400px;
   }
-  
-    /* Research */
-  
-  .research-container {
-    border-radius: 10px;
-    border: solid 1px #979797;
+
+
+
+/* Footer */
+
+  .footer{
+    background-color: #d84b27;
+    color: white;
+    font-family: monospace;
+  }
+
+  .social-media{
+    color:white;
     background-color: #4a4a4a;
-    justify-content: center;
-    padding: 50px;
-    grid-column: 1;
-  }
-  
-  .research-headline {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .research-text {
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .research-list {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  /* Design */
-  
-  .design-container {
-    border-radius: 10px;
-    border: solid 1px #979797;
-    background-color: #4a4a4a;
-    padding: 50px;
-    grid-column: 2;
-  }
-  
-  .design-headline {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .design-text {
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .design-list {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  /* Development */
-  
-  .development-container {
-    border-radius: 10px;
-    border: solid 1px #979797;
-    background-color: #4a4a4a;
-    padding: 50px;
-    grid-column: 3;
-  }
-  
-  .development-headline {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .development-text {
-    font-family: Montserrat;
-    font-size: 12px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  .development-list {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  /* Projects */
-
-  .projects-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    padding: 50px;
   }
 
-  .projects-grid > div {
-    border-radius: 10px;
-    background-color: #4a4a4a;
-    width: 350px;
-    height: 200px;
-    margin-top: 10px;
-  }
-
-  .projects-headline {
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    color: #4a4a4a;
-  }
-
-  #project-box-text {
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-  }
-
-  /* Start A Project */
-  
-  .contact-container {
-    width: 904px;
-    border-radius: 8px;
-    background-color: #4a4a4a;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    flex-direction: row;
-  }
-  
-  .contact-headline {
-    height: 29px;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-  }
-  
-  .contact-text {
-    height: 18px;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 300;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-  }
-  
-
-  
-  
-  
-  
-  
-  
+  .social-media:hover{
+    color: #d84b27;
+    }
