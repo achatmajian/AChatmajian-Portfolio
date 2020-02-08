@@ -39,24 +39,37 @@ body{
   width: 700px;
   padding: 20px
   }
+
+  
   
   
   /* About */
   
   .about-container {
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     background-color: #d84b27;
     padding: 0px 250px 50px 250px;
     
+=======
+    justify-items: center;
+    background-color: #d84b27;
+    padding: 0px 200px 50px 200px;
+>>>>>>> refs/remotes/origin/master
   }  
   
   .about-text {
     font-family: monospace;
     text-align: center;
     color: #ffffff;
+<<<<<<< HEAD
     width: 700px;
     min-width: 500px;
+=======
+    /* padding-left: 400px;
+    padding-right: 400px; */
+>>>>>>> refs/remotes/origin/master
   }
   
   /* Skills */
@@ -66,13 +79,20 @@ body{
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
+<<<<<<< HEAD
   justify-content: center;
+=======
+>>>>>>> refs/remotes/origin/master
   padding: 80px 0px 30px 0px;
 }
 
   .skills-container{
     justify-content: center;
+<<<<<<< HEAD
     padding: 50px 10px 50px 10px;
+=======
+    padding: 50px;
+>>>>>>> refs/remotes/origin/master
     text-align: center;
   }
   
@@ -84,6 +104,7 @@ body{
     padding: 40px;
     margin: 40px;
     font-family: monospace;
+<<<<<<< HEAD
     min-width: 400px;
   }
 
@@ -91,6 +112,38 @@ body{
 
 /* Footer */
 
+=======
+    min-width: 350px;
+  }
+  
+
+  /* Projects */
+
+  .projects-wrapper{
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+  }
+
+  .projects-container{
+  padding: 40px;
+  margin: 60px;
+  text-align: center;
+  }
+
+  .card {
+    margin: 30px;
+    border-radius: 5px;
+    min-width: 350px;
+  }
+
+  .image {
+    border-radius: 5px;
+  }
+
+/* Footer */
+
+
+>>>>>>> refs/remotes/origin/master
   .footer{
     background-color: #d84b27;
     color: white;

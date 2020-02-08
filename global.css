@@ -37,7 +37,10 @@ ul {
   /* Navigation */
   
   .navbar {
+<<<<<<< HEAD
     /* border-bottom: #d84b27 1px solid; */
+=======
+>>>>>>> refs/remotes/origin/master
     padding: 5px;
     background-color:#d84b27;
   }
