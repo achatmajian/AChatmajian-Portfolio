@@ -17,7 +17,7 @@ body{
   }
 
   .hero-headline {
-    font-family: monospace;
+    font-family: 'Source Code Pro', monospace;
     font-size: 36px;
     font-weight: 600;
     text-align: center;
@@ -27,7 +27,7 @@ body{
   
 
   .hero-subtext {
-    font-family: monospace;
+    font-family: 'Source Code Pro', monospace;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
@@ -52,7 +52,7 @@ body{
   }  
   
   .about-text {
-    font-family: monospace;
+    font-family: 'Source Code Pro', monospace;
     text-align: center;
     color: #ffffff;
     width: 700px;
@@ -83,37 +83,50 @@ body{
     text-align: center;
     padding: 40px;
     margin: 40px;
-    font-family: monospace;
+    font-family: 'Source Code Pro', monospace;
     min-width: 400px;
   }
 
-/* Projects */
+  /* Projects */
 
-.project-link{
-  color: white;
-}
-
-.project-link:hover{
-  color: #d84b27;
-}
-
-.project-image{
-  border-radius: 5px;
-}
-
-/* Footer */
-
-  .footer{
-    background-color: #d84b27;
-    color: white;
-    font-family: monospace;
+  .projects-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 0px 0px 30px 0px;
   }
-
-  .social-media{
-    color:white;
-    background-color: #4a4a4a;
-  }
-
-  .social-media:hover{
-    color: #d84b27;
+  
+    .projects-container{
+      justify-content: center;
+      padding: 50px 10px 50px 10px;
+      text-align: center;
     }
+    
+    .project{
+      background-color: #4a4a4a;
+      color: white;
+      border-radius: 5px;
+      text-align: center;
+      padding: 40px;
+      margin: 40px;
+      
+      min-width: 400px;
+    }
+
+
+    .project-link{
+      color: white;
+    }
+    
+    .project-link:hover{
+      color: #d84b27;
+    }
+    
+    .project-image{
+      border-radius: 5px;
+    }
+  
+
+

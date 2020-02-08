@@ -37,10 +37,7 @@ ul {
   /* Navigation */
   
   .navbar {
-<<<<<<< HEAD
     /* border-bottom: #d84b27 1px solid; */
-=======
->>>>>>> refs/remotes/origin/master
     padding: 5px;
     background-color:#d84b27;
   }
@@ -74,7 +71,38 @@ ul {
     background-color: #ff8c66;
   }
   
-  
   /* Footer */
+
+  .footer{
+    background-color: #d84b27;
+    color: white;
+    font-family: monospace;
+  }
+
+  .social-media{
+    color:white;
+    background-color: #4a4a4a;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .social-media:hover{
+    color: #d84b27;
+    }
   
+#contact{
+  font-weight: bold;
+}
+
+  .footer-text{
+    font-family: monospace;
+    font-size: 20px;
+  }
+
+  #github-link{
+    border-radius: 5px 0px 0px 5px;
+  }
   
+  #medium-link{
+    border-radius: 0px 5px 5px 0px;
+  }
