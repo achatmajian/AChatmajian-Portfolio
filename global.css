@@ -6,20 +6,20 @@
   }
 
 h1 {
-  font-family: monospace;
+  font-family: 'Source Code Pro', monospace;
   font-size: 32px;
   font-weight: bold;
 }
 
 h2 {
-  font-family:monospace;
+  font-family: 'Source Code Pro', monospace;
   font-size: 24px;
   font-weight: bold;
 
 }
 
 h3 {
-  font-family: monospace;
+  font-family: 'Source Code Pro', monospace;
   font-size: 20px;
   font-weight: bold;
 }
@@ -43,7 +43,7 @@ ul {
   }
   
   .arek {
-    font-family: monospace;
+    font-family: 'Source Code Pro', monospace;
     font-size: 24px;
     font-weight: bold;
     color: white;
@@ -54,7 +54,7 @@ ul {
   .navbar-menu {
     justify-content: flex-end;
     margin-right: 40px;
-    font-family: monospace;
+    font-family: 'Source Code Pro', monospace;
     font-size: 20px;
     font-weight: 600;
   }
@@ -78,7 +78,7 @@ ul {
     justify-content: center;
     background-color: #d84b27;
     color: white;
-    font-family: monospace;
+    font-family: 'Source Code Pro', monospace;
   }
 
   .social-media{
@@ -98,7 +98,7 @@ ul {
   }
 
   .footer-text{
-    font-family: monospace;
+    font-family: 'Source Code Pro', monospace;
     font-size: 20px;
   }
 
