@@ -74,6 +74,8 @@ ul {
   /* Footer */
 
   .footer{
+    display: flex;
+    justify-content: center;
     background-color: #d84b27;
     color: white;
     font-family: monospace;
@@ -90,9 +92,10 @@ ul {
     color: #d84b27;
     }
   
-#contact{
-  font-weight: bold;
-}
+  #email{
+    font-weight: bold;
+    padding: 30px;
+  }
 
   .footer-text{
     font-family: monospace;
@@ -105,4 +108,20 @@ ul {
   
   #medium-link{
     border-radius: 0px 5px 5px 0px;
+  }
+
+  .email-container{
+    width: 400px;
+    padding: 30px;
+    margin-left: 230px;
+    margin-bottom: 50px;
+    background-color: #4a4a4a;
+  }
+
+  #email{
+    margin-top: 20px;
+  }
+
+  #copyright {
+    margin-top: 50px;
   }
