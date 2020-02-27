@@ -113,7 +113,7 @@ ul {
   .email-container{
     width: 400px;
     padding: 30px;
-    margin-left: 230px;
+    margin-left: 215px;
     margin-bottom: 50px;
     background-color: #4a4a4a;
   }
@@ -124,4 +124,9 @@ ul {
 
   #copyright {
     margin-top: 50px;
+  }
+
+  #contact-title{
+    color: white;
+    padding-bottom: 40px;
   }
